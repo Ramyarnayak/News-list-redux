@@ -1,0 +1,35 @@
+.btn-search{
+  background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+      font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 34px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+      moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-search:hover{
+      background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+}
+.powered-by:hover{
+color: #f5ce62 !important;
+}
+
+.article{
+  text-decoration: none !important;
+}
+.article-header:hover , .source:hover{
+  color: #e85a19 !important;
+}
