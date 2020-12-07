@@ -21,11 +21,17 @@ function NewsPage( props ) {
 
   const [searchText, setSearchText] = useState("")
 
-  useEffect(() => {
-    const { searchTopNewsAction } = props
-         searchTopNewsAction();
-    
-  });
+  
+
+  useEffect(
+    () => {
+      const { searchTopNewsAction } = props
+      searchTopNewsAction();
+      return () => {
+        searchTopNewsAction();
+      };
+    },[searchAnyNewsAction]
+  );
 
 
       const handleChange = event => setSearchText(event.target.value);
