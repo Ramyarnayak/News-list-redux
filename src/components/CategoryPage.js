@@ -57,7 +57,7 @@ class CategoryPage extends Component {
                     
                     
                
-                        <a href="https://newsapi.org/" target="_blank" className= "powered-by" style={Styles.poweredBy}>Powered by News API</a>
+                       
                 </div>
                 </div>
             
